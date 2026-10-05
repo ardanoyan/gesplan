@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5f3b9c2e-8d4a-4f1b-9a6e-2c7d1e0b4a31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.6175447,
+              37.9879099
+            ],
+            [
+              32.6178862,
+              37.9879099
+            ],
+            [
+              32.6178862,
+              37.9880901
+            ],
+            [
+              32.6175447,
+              37.9880901
+            ],
+            [
+              32.6175447,
+              37.9879099
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "mode": "roof"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a1c84e27-3b9f-4d62-8e15-7f0a2d6c9b58",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.6181138,
+              37.9879459
+            ],
+            [
+              32.6183415,
+              37.9879459
+            ],
+            [
+              32.6183415,
+              37.9880541
+            ],
+            [
+              32.6181138,
+              37.9880541
+            ],
+            [
+              32.6181138,
+              37.9879459
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "mode": "roof"
+      }
+    }
+  ],
+  "roofs": {
+    "5f3b9c2e-8d4a-4f1b-9a6e-2c7d1e0b4a31": {
+      "name": "Çatı 1",
+      "kind": "flat",
+      "tiltDeg": 10,
+      "azimuthDeg": 180,
+      "setbackM": 0.5,
+      "orientation": "portrait",
+      "rackTiltDeg": 10,
+      "rowsPerTable": 1,
+      "limitElevationDeg": 20
+    },
+    "a1c84e27-3b9f-4d62-8e15-7f0a2d6c9b58": {
+      "name": "Çatı 2",
+      "kind": "pitched",
+      "tiltDeg": 15,
+      "azimuthDeg": 180,
+      "setbackM": 0.5,
+      "orientation": "portrait",
+      "rackTiltDeg": 10,
+      "rowsPerTable": 1,
+      "limitElevationDeg": 20
+    }
+  },
+  "obstacles": {},
+  "moduleRef": null,
+  "gapM": 0.02
+}
